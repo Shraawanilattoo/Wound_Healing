@@ -40,14 +40,3 @@ def read_mouse_data(file_path):
 
     return df
 
-
-pd.set_option('display.max_columns', None)
-pd.set_option('display.max_rows', None)
-
-file_path = '/Diabetic_wound_lactate.xlsx'
-diabetic_df = read_mouse_data(file_path)
-print(diabetic_df)
-
-file_path = '/Healthy_wound_lactate.xlsx'
-healthy_df = read_mouse_data(file_path)
-print(healthy_df)
